@@ -13,4 +13,6 @@ Click and Open the address given in output.
 
 Then REGISTER and SIGN IN
 
-PLAY and ENJOY!!!
+Select the Race -> Select the Horse -> Place your Bet
+
+ENJOY!!!
