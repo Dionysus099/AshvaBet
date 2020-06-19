@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="../static/ho.png">  
+    <title>SignUp</title>
+    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static',filename='stylesu.css') }}">
+</head>
+<body>
+        <div class="square">
+            <br>
+            <h1>Sign Up</h1>
+    <form action = "http://127.0.0.1:5000/signup", method = "POST">
+        <label>User Name</label>
+        <br>
+        <input type = "text" name = "U_name">
+        <br>
+        {%if flag1 == 1 %}
+        <div class = "Incorrect"> 
+            <p>User Name already exists,try modifying the name</p>
+        </div>
+        {% endif %}
+        <label>Password</label>
+        <br>
+        <input type = "password" name = "U_pass">
+        <br>
+        <label>Age</label>
+        <br>
+        <input type = "number" name = "U_age">
+        <br>
+        <label>DOB</label><br>
+        <input type = "date" name = "U_dob"><br>
+        <label>Gender</label><br>
+        <input type = "text" name = "U_gen"><br><br>
+        <input type="submit" class="button" value="Submit">
+        <br>
+        {% if flag1 == 2 %}
+        <p>Please fill in all the details</p>
+        {%endif%}
+</body>
+</html>

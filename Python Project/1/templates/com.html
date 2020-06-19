@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Live Commentry</h1>
+    {% for i in comm %}
+        <p>{{i}}</p>
+        {% for j in range(1500000) %}
+        {%endfor%}
+    {% endfor%}
+    {{flagdis}}
+    <a href = "{{url_for('add',usern=usern, amount=amount)}}">Continue</a>
+{% endblock content %}

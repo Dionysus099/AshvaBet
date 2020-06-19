@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1> Instructions </h1>
+    <br>
+    <style>
+        .instruct{
+            background: rgb(248, 217, 217);
+        padding:2%;
+        border-style:double;
+        border-radius: 3%;
+        box-shadow: 10px 10px 5px grey;
+            font-family:Gill Sans, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+        }
+    </style>
+    <p>Hello {{usern}}</p>
+    <div class = 'instruct'>
+    {% for lines in display%}
+        {{ lines }}
+        <br>
+    {% endfor %}
+    </div>
+{%endblock %}

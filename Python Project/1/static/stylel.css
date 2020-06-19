@@ -1,0 +1,70 @@
+body{
+    background-color: wheat;
+    background-image:  url("log1.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+      }
+input[type=text] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+input[type=password] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }   
+.button {
+        background-color:rgb(112, 177, 114); 
+        border-radius: 10%;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      } 
+.button:hover{
+      background-color: rgb(76, 175, 80);
+      color:whitesmoke;
+}
+a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+    }
+.square {
+    background-color:rgb(100, 22, 163);
+    border-radius: 2%;
+    text-align: center;
+    width: 430px;
+    height: 570px;
+    margin-left: 1200px;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.logo{
+      background-image: url("logo.png");
+      background-size: 20%;
+      margin-left:155px;
+      background-repeat: no-repeat;
+      width:550px
+}
+.Message{
+      margin-left: 67%;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:rgb(39, 62, 136);
+      font-style: oblique;
+}

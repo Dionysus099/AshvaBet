@@ -1,0 +1,27 @@
+Hello, New to Horse Betting ? Do not worry, read these simple instructions to start betting right now.
+Firstly, you can select any one of the races that are displayed on your home page.
+After choosing the race, you can view the list of horses that are participating in that race.
+After selection of horse, there will be three types of bets of which you have to select one.
+The three types of bets are :-
+
+Win Bets:
+-->A win bet means exactly what you think. Simply put, you must select the horse that crosses the finish line first in order to cash a ticket.
+-->Low chance of winning.
+-->If the selected horse wins, you get 3x times the amount you invested.
+
+Place Bets:
+-->Place bets require your horse to finish either first or second.
+-->Moderate chance of winning
+-->If the selected horses win, you get 2x times the amount you invested.   
+
+Show Bets:
+-->A show bet is when your horse finishes in first, second, or third.
+-->Good Chance of winning.
+-->Is the selected horses win, you get 1.5x times the amount you invested.
+
+After selection of type of bet , you have enter the amount you want to place on a horse.
+The amount you have entered is deducted from your wallet.
+Wait for some time until the race finishes.
+If the race finishes in your favour, the win amount is transferred to you wallet.
+
+Enjoy Betting!!

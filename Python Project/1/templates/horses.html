@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+    .box {
+            background-color: rgba(13, 142, 216, 0.781);
+            border-left-style: solid;
+            border-left-width: 7px;
+            border-radius:2%;
+            border-color: rgb(107, 42, 160);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+            color:white;
+            padding:3%;
+            box-shadow: 10px 10px 5px grey;
+        }
+    a.more{
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5%;
+        background: rgb(205, 73, 50);
+        padding:7px;
+        color:white;
+    }
+</style>
+<h2> These are the horses that are going to ride in the selected race</h2>
+    {% set count = namespace(value=1) %}
+    {% for Horse in ran_li %}
+        <h3> Horse {{ count.value }}</h3>
+        <div class="box">
+        {% for i in range(5) %}
+            {{Horse[i]}}
+            <br>
+        {% endfor %}
+    </div>
+        <br>
+        <a class = 'more' href="{{url_for('type', usern = usern, value = count.value)}}"> Type of Bet</a>
+        <br><br>
+        {% set count.value = count.value + 1 %}
+    {% endfor%}
+    <br>
+    <h3><strong>Instruction : </strong> Select a horse and click on Type of race to select type of race</h3>
+    <h3><strong>Note : </strong> Select a horse on which you want tot bet. </h3>
+{% endblock content %}

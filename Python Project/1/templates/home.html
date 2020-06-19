@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1> Hi {{usern}} </h1>
+    <h1> Welcome to AshvaBet </h1>
+    <br>
+    <style>
+    .box {
+        background-color: rgba(221, 108, 33, 0.89);
+        border-left-style: solid;
+        border-radius:3%;
+        border-left-width: 7px;
+        border-color: rgb(107, 42, 160);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        color:white;
+        padding:3%;
+        box-shadow: 10px 10px 5px grey;
+    }
+    a.more{
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5%;
+        background: rgb(205, 73, 50);
+        padding:7px;
+        color:white;
+    }
+    </style>
+    <h2> These are the upcoming races </h2>
+    {% set count = namespace(value=1) %}
+    {% for race in ran_li %}
+        <h3> Race   {{ count.value }}</h3>
+        <div class = "box"
+        <br>
+        {% for i in range(3) %}
+            {{race[i]}}
+            <br>
+        {% endfor %}
+        </div>
+        <br>
+        <a class = "more" href="{{url_for('horses', usern = usern)}}" > Select horse</a>
+        <br><br>
+        {% set count.value = count.value + 1 %}
+        {% endfor%}
+    <br>
+    <h3><strong>Instruction : </strong>Select a race and click on select horse to select horse.</h3>
+    <h3><strong>Note : </strong>You can select only one race for bet</h3>
+{% endblock content %}

@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block content %}
+    <style>
+    .box{
+        background: rgb(248, 217, 217);
+        padding:2%;
+        border-style:double;
+        border-radius: 3%;
+        box-shadow: 10px 10px 5px grey;
+    }
+    .button {
+        background-color:rgb(112, 177, 114); 
+        border-radius: 10%;
+        border: none;
+        color: white;
+        padding: 10px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      } 
+      input[type=text] {
+        width: 30%;
+        padding: 10px 15px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+
+    </style>
+    <h2> <strong>AshvaBet</strong></h2>
+    <h3> Profile </h3>
+    <div class = "box">
+    <p>Name &nbsp&nbsp&nbsp&nbsp : {{us_n}}</p>
+    <p>Age  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  : {{us_a}}</p>
+    <p>Gender &nbsp&nbsp: {{us_g}}</p>
+    <p>DOB  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  : {{us_dob}}</p>
+    <p>Wallet&nbsp&nbsp&nbsp &nbsp: Rs.{{us_m}}</p>
+    </div>
+    <br>
+    <h3>Add money to your wallet</h3>
+    <form action = "http://127.0.0.1:5000/wall/{{us_n}}", method = "post">
+        <input type = "text" name = "amount">
+        <br><br>
+        <input type="submit" class="button" value="Add">
+        <br>
+    </form>
+{% endblock %}

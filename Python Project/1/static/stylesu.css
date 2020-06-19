@@ -1,0 +1,64 @@
+body{
+    background: wheat;
+}
+.square {
+  background-color:rgb(107, 42, 160);
+  border-radius: 2%;
+  text-align: center;
+  width: 430px;
+  
+  height: 570px;
+  margin-left:700px;
+  margin-top: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: whitesmoke;
+}
+.button {
+  background-color: rgb(76, 175, 80); 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+} 
+.button:hover{
+background-color: rgb(112, 177, 114);
+color:whitesmoke;
+}
+input[type=text] {
+  width: 60%;
+  border-radius: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  }
+input[type=password] {
+        width: 60%;
+        padding: 12px 20px;
+        border-radius: 10%;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      input[type=number] {
+        width: 60%;
+        border-radius: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      input[type=date] {
+        width: 60%;
+        border-radius: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        }
+.Incorrect{
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(252, 167, 167);
+  }
+    

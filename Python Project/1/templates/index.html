@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+        <link rel="shortcut icon" href="../static/ho.png">  
+    <title>Login</title>
+    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static',filename='stylel.css') }}">
+</head>
+<body>
+    <div class = 'Message'>
+    {%if flage == 3%}
+        <p><strong> Your account has created, You can login now</strong></p>
+    {% endif %}
+    </div>
+    <div class="square">
+        <br>
+        <div class="logo">
+            <br><br><br><br><br><br><br>
+        </div>
+            <h1>Login</h1>
+            <form action = "http://127.0.0.1:5000/login", method = "post">
+        
+                <label>User Name</label>
+                <br>
+                <input type = "text" name = "U_Name">
+                <br>
+
+                <label>Password</label>
+                <br>
+                <input type = "password" name = "U_Pass">
+                <br>
+                <input type="submit" class="button" value="Login">
+                <br>
+            <p>Not Registered Yet?</p>
+            <a href="{{url_for('s')}}"> Sign up now</a>
+            <br><br>
+            {% if flag == 1 %}   
+                <font color="red" size="5">Incorrect Username/Password!</font> 
+            {% endif %}
+    </div>
+</body>
+</html>

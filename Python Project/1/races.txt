@@ -1,0 +1,39 @@
+Event: Delhi Race 1: The Aristocrate Premium Plate Div-1
+Venue: Delhi Race Course
+Distance: 1000 M Race
+Event: Delhi Race 2: The Aristocrate Premium Plate Div-2
+Venue: Delhi Race Course
+Distance: 1000 M Race
+Event: Delhi Race 3: The An's Black Plate Div-1
+Venue: Delhi Race Course
+Distance: 1400 M Race
+Event: Delhi Race 4: The An's Black Plate Div-2
+Venue: Delhi Race Course
+Distance: 1400 M Race
+Event: Delhi Race 5: The Jagatjit Industries North India 1000 Guineas
+Venue: Delhi Race Course
+Distance: 1400 M Race
+Event: Delhi Race 6: The Ruby Tuesday Plate
+Venue: Delhi Race Course
+Distance: 1100 M Race
+Event: Mysore Race 1: The Pandavapura Plate
+Venue: Mysore Race Course
+Distance: 1100 M Race
+Event: Mysore Race 2: The Sakaleshpur Plate Div-2
+Venue: Mysore Race Course
+Distance: 1200 M Race
+Event: Mysore Race 3: The Sakaleshpur Plate Div-1
+Venue: Mysore Race Course
+Distance: 1200 M Race
+Event: Mysore Race 4: The Treasure's Nest Plate Div-2
+Venue: Mysore Race Course
+Distance: 1600 M Race
+Event: Mysore Race 5: The D.V.Vishwanath Memorial Trophy
+Venue: Mysore Race Course
+Distance: 1200 M Race
+Event: Mysore Race 6: The Treasure's Nest Plate Div-2
+Venue: Mysore Race Course
+Distance: 1600 M Race
+Event: Mysore Race 7: The Bandipur Plate
+Venue: Mysore Race Course
+Distance: 1400 M Race

@@ -1,0 +1,48 @@
+body{
+    background-color: wheat;
+    background-image:  url("log1.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+      }
+input[type=text] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+input[type=password] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }   
+.button {
+        background-color: #4CAF50; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      } 
+.square {
+    background-color:rgb(107, 42, 160);
+    border-radius: 2%;
+    text-align: center;
+    width: 430px;
+    height: 530px;
+    margin-left: 1200px;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+}
+.logo{
+      background-image: url("logo.png");
+      background-size: 20%;
+      margin-left:155px;
+      background-repeat: no-repeat;
+      width:550px
+
+}

@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+.instruct{
+    background: rgb(248, 217, 217);
+padding:2%;
+border-style:double;
+border-radius: 3%;
+box-shadow: 10px 10px 5px grey;
+    font-family:Gill Sans, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.button {
+        background-color:rgb(103, 53, 184); 
+        border-radius: 10%;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      } 
+.button:hover{
+      background-color: rgb(42, 141, 45);
+      color:whitesmoke;
+}
+input[type=text] {
+  width: 35%;
+  border-radius: 5%;
+  padding: 7px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.s{
+    color:rgb(185, 59, 36) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+</style>
+    {% if flag == 1 %}
+    <p>Please select enter the amount in only one of the bets</p>
+    {% endif%}
+    <h3> Type of Bets:</h3><br>
+    <ul>
+        {%if flag == 3%}
+        <div class = 's'>
+        <font size = "7" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspInsufficient Balance</font>
+    </div> 
+        {% endif %}
+        <div class = "instruct">
+        <li>WIN</li>
+        <p>
+            A WIN Bet means exactly what you think. Simply put, you must select the horse that crosses the finish line First in order to cash a ticket.
+        </p>
+        <form action="http://127.0.0.1:5000/data/{{ usern }}/{{ value }}" method="POST">
+                <div>
+                    <label>Amount</label><br>
+                    <input type="text" name="Amount_w" placeholder="Enter Amount in Rs.">
+                </div><br>
+        <input type="submit" name="Select" class="button" value="Select">
+    </div>
+    <br><br>
+    <div class = "instruct">
+            
+
+        <li>PLACE</li>
+        <p>
+            PLACE Bets require your horse to finish either First or Second in order to cash a ticket.
+        </p>
+                <div>
+                    <label>Amount</label><br>
+                    <input type="text" name="Amount_p" placeholder="Enter Amount in Rs.">
+                </div><br>
+        <input type="submit" name="Select" class="button" value="Select">
+        </div>
+        <br><br>
+        <div class = "instruct">
+        <li>SHOW</li>
+        <p>
+            A SHOW Bet is when your horse finishes in First or Second or Third in order to cash a ticket.
+        </p>
+                <div>
+                    <label>Amount</label><br>
+                    <input type="text" name="Amount_s" placeholder="Enter Amount in Rs.">
+                </div><br>
+        <input type="submit" name="Select" class="button" value="Select">
+    </form>
+    </div>
+    </ul>
+    
+{% endblock content %}
