@@ -1,18 +1,18 @@
 body{
-    background-color: wheat;
+    background-color: blue;
     background-image:  url("log1.jpg");
-    background-size: 50%;
+    background-size: 75%;
     background-repeat: no-repeat;
       }
 input[type=text] {
-        width: 80%;
-        padding: 12px 20px;
-        margin: 8px 0;
+        width: 12%;
+        padding: 14px 2px;
+        margin: 23px 0;
         box-sizing: border-box;
       }
 input[type=password] {
-        width: 80%;
-        padding: 12px 20px;
+        width: 58%;
+        padding: 13px 5px;
         margin: 8px 0;
         box-sizing: border-box;
       }   
@@ -20,7 +20,7 @@ input[type=password] {
         background-color:rgb(112, 177, 114); 
         border-radius: 10%;
         border: none;
-        color: white;
+        color: yellow;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -29,13 +29,13 @@ input[type=password] {
       } 
 .button:hover{
       background-color: rgb(76, 175, 80);
-      color:whitesmoke;
+      color:red;
 }
 a:link, a:visited {
       background-color: #f44336;
       color: white;
       padding: 10px 20px;
-      text-align: center;
+      text-align: left
       text-decoration: none;
       display: inline-block;
     }
