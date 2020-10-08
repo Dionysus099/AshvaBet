@@ -35,7 +35,7 @@ a:link, a:visited {
       background-color: #f44336;
       color: white;
       padding: 10px 20px;
-      text-align: center;
+      text-align: left;
       text-decoration: none;
       display: inline-block;
     }
@@ -45,10 +45,10 @@ a:link, a:visited {
     }
 .square {
     background-color:rgb(100, 22, 163);
-    border-radius: 2%;
+    border-radius: 5%;
     text-align: center;
     width: 430px;
-    height: 570px;
+    height: 579px;
     margin-left: 1200px;
     margin-top: 200px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,7 +60,7 @@ a:link, a:visited {
       background-size: 20%;
       margin-left:155px;
       background-repeat: no-repeat;
-      width:550px
+      width:555px
 }
 .Message{
       margin-left: 67%;
